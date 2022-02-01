@@ -18,4 +18,3 @@ https://www.youtube.com/watch?v=d4HAqS_VfkQ&t=192s
 ### Test with RSocket Client
 * rsc tcp://localhost:8181 --stream --route greetings.Jane
 * rsc tcp://localhost:8181 --route greetings-single -d'{"name":"Jane"}'
-* rsc tcp://localhost:8181 --stream --route cities.Jane
